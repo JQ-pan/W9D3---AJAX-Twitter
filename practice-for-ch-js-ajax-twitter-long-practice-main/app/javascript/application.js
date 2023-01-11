@@ -18,22 +18,21 @@ let followersSelector = "";
 
 
 document.querySelectorAll(followToggleSelector).forEach((el) => {
-  console.log(el); // This works
   new FollowToggle(el);
 });
 
-// document.querySelectorAll(infiniteTweetsSelector).forEach((el) => {
-//   new InfiniteTweets(el);
-// });
+document.querySelectorAll(infiniteTweetsSelector).forEach((el) => {
+  new InfiniteTweets(el);
+});
 
-// document.querySelectorAll(usersSearchSelector).forEach((el) => {
-//   new UsersSearch(el);
-// });
+document.querySelectorAll(usersSearchSelector).forEach((el) => {
+  new UsersSearch(el);
+});
 
-// document.querySelectorAll(tweetComposeSelector).forEach((el) => {
-//   new TweetCompose(el);
-// });
+document.querySelectorAll(tweetComposeSelector).forEach((el) => {
+  new TweetCompose(el);
+});
 
-// document.querySelectorAll(followersSelector).forEach((el) => {
-//   new Followers(el);
-// });
+document.querySelectorAll(followersSelector).forEach((el) => {
+  new Followers(el);
+});
